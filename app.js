@@ -30,6 +30,11 @@
      info.style.display = "200px";
    }
    // console.log(randomNumber)
+   if(number <0 || number >=100){
+     info.innerHTML = "Please enter a number between 0 and 100";
+
+
+   }
    else if (number > randomNumber && counter > 0) {
      info.innerHTML = "Enter a smaller number..";
      upNum.innerHTML = input.value;
